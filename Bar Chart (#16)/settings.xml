@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="generateImage" type="xboolean" value="false"/>
+        <entry key="imageFormat" type="xstring" value="SVG"/>
+        <entry key="width" type="xint" value="800"/>
+        <entry key="height" type="xint" value="600"/>
+        <entry key="categoryColumnV3" type="xstring" value="Type_of_collision"/>
+        <entry key="aggregationMethod" type="xstring" value="NONE"/>
+        <config key="frequencyColumnsV2">
+            <entry key="mode" type="xstring" value="MANUAL"/>
+            <config key="patternFilter">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="isCaseSensitive" type="xboolean" value="false"/>
+                <entry key="isInverted" type="xboolean" value="false"/>
+            </config>
+            <config key="manualFilter">
+                <config key="manuallySelected">
+                    <entry key="array-size" type="xint" value="2"/>
+                    <entry key="0" type="xstring" value="Male_Sex_of_driver"/>
+                    <entry key="1" type="xstring" value="Female_Sex_of_driver"/>
+                </config>
+                <config key="manuallyDeselected">
+                    <entry key="array-size" type="xint" value="111"/>
+                    <entry key="0" type="xstring" value="18-30_Age_band_of_driver"/>
+                    <entry key="1" type="xstring" value="31-50_Age_band_of_driver"/>
+                    <entry key="2" type="xstring" value="Under 18_Age_band_of_driver"/>
+                    <entry key="3" type="xstring" value="Over 51_Age_band_of_driver"/>
+                    <entry key="4" type="xstring" value="Unknown_Age_band_of_driver"/>
+                    <entry key="5" type="xstring" value="Unknown_Sex_of_driver"/>
+                    <entry key="6" type="xstring" value="Above high school_Educational_level"/>
+                    <entry key="7" type="xstring" value="Junior high school_Educational_level"/>
+                    <entry key="8" type="xstring" value="Unknown_Educational_level"/>
+                    <entry key="9" type="xstring" value="Elementary school_Educational_level"/>
+                    <entry key="10" type="xstring" value="High school_Educational_level"/>
+                    <entry key="11" type="xstring" value="Illiterate_Educational_level"/>
+                    <entry key="12" type="xstring" value="Writing &amp; reading_Educational_level"/>
+                    <entry key="13" type="xstring" value="Employee_Vehicle_driver_relation"/>
+                    <entry key="14" type="xstring" value="Unknown_Vehicle_driver_relation"/>
+                    <entry key="15" type="xstring" value="Owner_Vehicle_driver_relation"/>
+                    <entry key="16" type="xstring" value="Other_Vehicle_driver_relation"/>
+                    <entry key="17" type="xstring" value="1-2yr_Driving_experience"/>
+                    <entry key="18" type="xstring" value="Above 10yr_Driving_experience"/>
+                    <entry key="19" type="xstring" value="5-10yr_Driving_experience"/>
+                    <entry key="20" type="xstring" value="2-5yr_Driving_experience"/>
+                    <entry key="21" type="xstring" value="Unknown_Driving_experience"/>
+                    <entry key="22" type="xstring" value="No Licence_Driving_experience"/>
+                    <entry key="23" type="xstring" value="Below 1yr_Driving_experience"/>
+                    <entry key="24" type="xstring" value="unknown_Driving_experience"/>
+                    <entry key="25" type="xstring" value="Unknown_Lanes_or_Medians"/>
+                    <entry key="26" type="xstring" value="Undivided Two way_Lanes_or_Medians"/>
+                    <entry key="27" type="xstring" value="other_Lanes_or_Medians"/>
+                    <entry key="28" type="xstring" value="Double carriageway (median)_Lanes_or_Medians"/>
+                    <entry key="29" type="xstring" value="One way_Lanes_or_Medians"/>
+                    <entry key="30" type="xstring" value="Two-way (divided with solid lines road marking)_Lanes_or_Medians"/>
+                    <entry key="31" type="xstring" value="Two-way (divided with broken lines road marking)_Lanes_or_Medians"/>
+                    <entry key="32" type="xstring" value="No junction_Types_of_Junction"/>
+                    <entry key="33" type="xstring" value="Y Shape_Types_of_Junction"/>
+                    <entry key="34" type="xstring" value="Crossing_Types_of_Junction"/>
+                    <entry key="35" type="xstring" value="O Shape_Types_of_Junction"/>
+                    <entry key="36" type="xstring" value="Other_Types_of_Junction"/>
+                    <entry key="37" type="xstring" value="Unknown_Types_of_Junction"/>
+                    <entry key="38" type="xstring" value="T Shape_Types_of_Junction"/>
+                    <entry key="39" type="xstring" value="X Shape_Types_of_Junction"/>
+                    <entry key="40" type="xstring" value="Asphalt roads_Road_surface_type"/>
+                    <entry key="41" type="xstring" value="Earth roads_Road_surface_type"/>
+                    <entry key="42" type="xstring" value="Unknown_Road_surface_type"/>
+                    <entry key="43" type="xstring" value="Asphalt roads with some distress_Road_surface_type"/>
+                    <entry key="44" type="xstring" value="Gravel roads_Road_surface_type"/>
+                    <entry key="45" type="xstring" value="Other_Road_surface_type"/>
+                    <entry key="46" type="xstring" value="Daylight_Light_conditions"/>
+                    <entry key="47" type="xstring" value="Darkness - lights lit_Light_conditions"/>
+                    <entry key="48" type="xstring" value="Darkness - no lighting_Light_conditions"/>
+                    <entry key="49" type="xstring" value="Darkness - lights unlit_Light_conditions"/>
+                    <entry key="50" type="xstring" value="Normal_Weather_conditions"/>
+                    <entry key="51" type="xstring" value="Raining_Weather_conditions"/>
+                    <entry key="52" type="xstring" value="Raining and Windy_Weather_conditions"/>
+                    <entry key="53" type="xstring" value="Cloudy_Weather_conditions"/>
+                    <entry key="54" type="xstring" value="Other_Weather_conditions"/>
+                    <entry key="55" type="xstring" value="Windy_Weather_conditions"/>
+                    <entry key="56" type="xstring" value="Snow_Weather_conditions"/>
+                    <entry key="57" type="xstring" value="Unknown_Weather_conditions"/>
+                    <entry key="58" type="xstring" value="Fog or mist_Weather_conditions"/>
+                    <entry key="59" type="xstring" value="Collision with roadside-parked vehicles_Type_of_collision"/>
+                    <entry key="60" type="xstring" value="Vehicle with vehicle collision_Type_of_collision"/>
+                    <entry key="61" type="xstring" value="Collision with roadside objects_Type_of_collision"/>
+                    <entry key="62" type="xstring" value="Collision with animals_Type_of_collision"/>
+                    <entry key="63" type="xstring" value="Other_Type_of_collision"/>
+                    <entry key="64" type="xstring" value="Rollover_Type_of_collision"/>
+                    <entry key="65" type="xstring" value="Fall from vehicles_Type_of_collision"/>
+                    <entry key="66" type="xstring" value="Collision with pedestrians_Type_of_collision"/>
+                    <entry key="67" type="xstring" value="With Train_Type_of_collision"/>
+                    <entry key="68" type="xstring" value="Unknown_Type_of_collision"/>
+                    <entry key="69" type="xstring" value="Going straight_Vehicle_movement"/>
+                    <entry key="70" type="xstring" value="U-Turn_Vehicle_movement"/>
+                    <entry key="71" type="xstring" value="Moving Backward_Vehicle_movement"/>
+                    <entry key="72" type="xstring" value="Turnover_Vehicle_movement"/>
+                    <entry key="73" type="xstring" value="Waiting to go_Vehicle_movement"/>
+                    <entry key="74" type="xstring" value="Getting off_Vehicle_movement"/>
+                    <entry key="75" type="xstring" value="Reversing_Vehicle_movement"/>
+                    <entry key="76" type="xstring" value="Unknown_Vehicle_movement"/>
+                    <entry key="77" type="xstring" value="Parked_Vehicle_movement"/>
+                    <entry key="78" type="xstring" value="Stopping_Vehicle_movement"/>
+                    <entry key="79" type="xstring" value="Overtaking_Vehicle_movement"/>
+                    <entry key="80" type="xstring" value="Other_Vehicle_movement"/>
+                    <entry key="81" type="xstring" value="Entering a junction_Vehicle_movement"/>
+                    <entry key="82" type="xstring" value="Not a Pedestrian_Pedestrian_movement"/>
+                    <entry key="83" type="xstring" value="Crossing from driver's nearside_Pedestrian_movement"/>
+                    <entry key="84" type="xstring" value="Crossing from nearside - masked by parked or statioNot a Pedestrianry vehicle_Pedestrian_movement"/>
+                    <entry key="85" type="xstring" value="Unknown or other_Pedestrian_movement"/>
+                    <entry key="86" type="xstring" value="Crossing from offside - masked by  parked or statioNot a Pedestrianry vehicle_Pedestrian_movement"/>
+                    <entry key="87" type="xstring" value="In carriageway, statioNot a Pedestrianry - not crossing  (standing or playing)_Pedestrian_movement"/>
+                    <entry key="88" type="xstring" value="Walking along in carriageway, back to traffic_Pedestrian_movement"/>
+                    <entry key="89" type="xstring" value="Walking along in carriageway, facing traffic_Pedestrian_movement"/>
+                    <entry key="90" type="xstring" value="In carriageway, statioNot a Pedestrianry - not crossing  (standing or playing) - masked by parked or statioNot a Pedestrianry vehicle_Pedestrian_movement"/>
+                    <entry key="91" type="xstring" value="Moving Backward_Cause_of_accident"/>
+                    <entry key="92" type="xstring" value="Overtaking_Cause_of_accident"/>
+                    <entry key="93" type="xstring" value="Changing lane to the left_Cause_of_accident"/>
+                    <entry key="94" type="xstring" value="Changing lane to the right_Cause_of_accident"/>
+                    <entry key="95" type="xstring" value="Overloading_Cause_of_accident"/>
+                    <entry key="96" type="xstring" value="Other_Cause_of_accident"/>
+                    <entry key="97" type="xstring" value="No priority to vehicle_Cause_of_accident"/>
+                    <entry key="98" type="xstring" value="No priority to pedestrian_Cause_of_accident"/>
+                    <entry key="99" type="xstring" value="No distancing_Cause_of_accident"/>
+                    <entry key="100" type="xstring" value="Getting off the vehicle improperly_Cause_of_accident"/>
+                    <entry key="101" type="xstring" value="Improper parking_Cause_of_accident"/>
+                    <entry key="102" type="xstring" value="Overspeed_Cause_of_accident"/>
+                    <entry key="103" type="xstring" value="Driving carelessly_Cause_of_accident"/>
+                    <entry key="104" type="xstring" value="Driving at high speed_Cause_of_accident"/>
+                    <entry key="105" type="xstring" value="Driving to the left_Cause_of_accident"/>
+                    <entry key="106" type="xstring" value="Unknown_Cause_of_accident"/>
+                    <entry key="107" type="xstring" value="Overturning_Cause_of_accident"/>
+                    <entry key="108" type="xstring" value="Turnover_Cause_of_accident"/>
+                    <entry key="109" type="xstring" value="Driving under the influence of drugs_Cause_of_accident"/>
+                    <entry key="110" type="xstring" value="Drunk driving_Cause_of_accident"/>
+                </config>
+                <entry key="includeUnknownColumns" type="xboolean" value="false"/>
+            </config>
+            <config key="typeFilter">
+                <config key="selectedTypes">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <config key="view">
+        <entry key="limitRows" type="xstring" value="AUTOMATIC"/>
+        <entry key="maxRows" type="xint" value="100"/>
+        <entry key="title" type="xstring" value="Bar Chart"/>
+        <entry key="customCategoryAxisLabelV2" type="xstring" isnull="true" value=""/>
+        <entry key="customCategoryAxisLabelV2_is_present" type="xboolean" value="false"/>
+        <entry key="customFrequencyAxisLabelV2" type="xstring" isnull="true" value=""/>
+        <entry key="customFrequencyAxisLabelV2_is_present" type="xboolean" value="false"/>
+        <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
+        <config key="manualAxisLimits">
+            <entry key="min" type="xdouble" value="0.0"/>
+            <entry key="max" type="xdouble" value="100.0"/>
+        </config>
+        <entry key="direction" type="xstring" value="VERTICAL"/>
+        <entry key="chartType" type="xstring" value="GROUPED"/>
+        <entry key="barGroups" type="xstring" value="DIMENSIONS"/>
+        <entry key="showLegend" type="xboolean" value="true"/>
+        <entry key="showValues" type="xboolean" value="false"/>
+        <entry key="allowImageDownload" type="xboolean" value="true"/>
+        <entry key="showTooltip" type="xboolean" value="true"/>
+        <entry key="selectionMode" type="xstring" value="EDIT"/>
+        <entry key="enableAnimation" type="xboolean" value="true"/>
+    </config>
+    <config key="view_variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.views.node.barchart.BarChartNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Bar Chart"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.views"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.10.0.v202601301428"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Views"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.views.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.10.0.v202601301428"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Input Table"/>
+        <config key="Output Image"/>
+    </config>
+    <entry key="name" type="xstring" value="Bar Chart"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content">
+            <config key="object_0">
+                <entry key="index" type="xint" value="0"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_0"/>
+            </config>
+            <config key="object_1">
+                <entry key="index" type="xint" value="1"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_1"/>
+            </config>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="668d7fba-5674-4dbf-ba78-d0a63e759d1c"/>
+    </config>
+</config>
