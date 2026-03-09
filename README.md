@@ -173,4 +173,4 @@ Random Forest produced more stable predictions compared to Decision Tree.
 # 👨‍💻 Author
 
 **Siddharth Tiwari**  
-B.Tech Computer Science Engineering
+B.Tech Computer Science Engineering.
